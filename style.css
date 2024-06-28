@@ -97,8 +97,8 @@ a:active {
 
 .overlay {
   background-color: hsl(0, 0%, 0%, 0.6);
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
 }
 
 .text-container {
@@ -109,4 +109,10 @@ a:active {
   margin: 0 auto;
   max-width: 800px;
   padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-container {
+    width: 100%;
+  }
 }
