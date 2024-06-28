@@ -96,15 +96,8 @@ a:active {
   text-align: center;
 }
 
-.overlay {
-  background-color: hsl(0, 0%, 0%, 0.6);
-  height: auto;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
 .text-container {
-  background-color: hsla(0, 0%, 0%, 0.65);
+  background-color: hsla(0, 0%, 0%, 0.8);
   border: 1px solid hsl(0, 0%, 100%, 0.3);
   border-radius: 8px;
   width: 95%;
@@ -115,6 +108,12 @@ a:active {
 
 @media only screen and (max-width: 768px) {
   .text-container {
+    width: 100vw;
+  }
+  h1,
+  h2,
+  p {
+    padding: 0 6px;
     width: 100%;
   }
 }
