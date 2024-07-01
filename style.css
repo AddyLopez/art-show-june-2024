@@ -208,4 +208,7 @@ a:active {
   .app {
     width: 100%;
   }
+  a.donations {
+    font-size: 0.9rem;
+  }
 }
