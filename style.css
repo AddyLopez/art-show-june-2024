@@ -22,13 +22,27 @@ ul {
 h1,
 h2,
 p {
-  padding: 1rem;
+  padding: 0.8rem 0;
   color: white;
   margin: 0 auto;
 }
 
 h1 {
   font-size: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  border: 1px solid hsl(0, 0%, 0%);
+  margin: 0 auto;
+  height: auto;
+  width: 75%;
+  padding: 0 0.8rem;
 }
 
 nav {
@@ -41,30 +55,29 @@ nav a {
   text-align: center;
 }
 
-ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-li {
-  margin: 50px auto;
-  max-width: 95%;
-}
-
 img,
 video {
   height: auto;
   max-height: 420px;
-  max-width: 451px;
+  max-width: 448px;
   border-radius: 8px;
 }
 
 video {
   margin: 0 auto;
 }
+ul.menu {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
 
-a {
+ul.menu li {
+  margin: 50px auto;
+  max-width: 95%;
+}
+
+a.button-link {
   background: linear-gradient(
     87.6deg,
     hsla(351, 89%, 50%, 0.8) 1.7%,
@@ -127,17 +140,29 @@ a.donations {
   text-transform: uppercase;
 }
 
-a:visited {
-  color: hsl(0, 0%, 100%);
-}
-
-a:active {
-  transform: translate(1px, 1px);
+.container {
+  padding-bottom: 1rem;
 }
 
 .date {
   font-style: italic;
   text-align: center;
+}
+
+.education ul {
+  text-align: left;
+  color: white;
+}
+
+.education ul {
+  list-style: disc;
+}
+
+.education a {
+  background: none;
+  border: none;
+  text-align: left;
+  text-transform: none;
 }
 
 .text-container {
@@ -146,7 +171,16 @@ a:active {
   margin: 0 auto;
   height: auto;
   width: 75%;
-  padding: 40px 6px;
+  padding: 1.5rem 0.8rem;
+}
+
+a:visited {
+  color: hsl(0, 0%, 100%);
+}
+
+a:active {
+  transform: translate(1px, 1px);
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 768px) {
