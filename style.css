@@ -77,6 +77,10 @@ ul.menu li {
   max-width: 95%;
 }
 
+a {
+  color: hsl(0, 0%, 100%);
+}
+
 a.button-link {
   background: linear-gradient(
     87.6deg,
