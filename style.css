@@ -201,4 +201,7 @@ a:active {
   .carousel-item a {
     margin: 0 0;
   }
+  .app {
+    width: 100%;
+  }
 }
