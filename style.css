@@ -3,14 +3,15 @@
 }
 
 body {
-  background-image: url(./images/keffiyeh-pattern.png);
-  font-family: "Exo", sans-serif;
-  margin: 0 auto;
-  background-color: hsl(0, 0%, 0%);
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: hsl(0, 0%, 0%);
+  background-image: url(./images/keffiyeh-pattern.png);
+  display: flex;
+  font-family: "Exo", sans-serif;
+  flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 h1,
@@ -22,9 +23,9 @@ ul {
 h1,
 h2,
 p {
-  padding: 0.75rem 0;
   color: white;
   margin: 0 auto;
+  padding: 0.75rem 0;
 }
 
 h1 {
@@ -39,21 +40,21 @@ li {
   margin-bottom: 0.75rem;
 }
 footer {
-  font-size: 0.8rem;
-  text-align: center;
   background-color: hsla(0, 0%, 0%, 0.9);
   border: 1px solid hsl(0, 0%, 0%);
-  margin: 0 auto;
+  font-size: 0.8rem;
   height: auto;
-  width: 100%;
+  margin: 0 auto;
   padding: 0 0.8rem;
+  text-align: center;
+  width: 100%;
 }
 
 nav {
   display: block;
   margin: 0 auto;
-  padding-top: 10px;
   max-width: 95%;
+  padding-top: 10px;
 }
 nav a {
   text-align: center;
@@ -61,10 +62,10 @@ nav a {
 
 img,
 video {
+  border-radius: 8px;
   height: auto;
   max-height: 420px;
   max-width: 448px;
-  border-radius: 8px;
 }
 
 video {
@@ -115,13 +116,13 @@ a.button-link {
 }
 
 .carousel-item a {
-  display: flex;
+  align-items: center;
   background: none;
   border: none;
-  padding: 0;
+  display: flex;
   justify-content: space-around;
-  align-items: center;
   margin: 0 33%;
+  padding: 0;
 }
 
 .carousel-item img {
@@ -140,10 +141,10 @@ a.donations {
   border-radius: none;
   color: hsl(0, 0%, 100%);
   display: block;
-  text-align: center;
   font-size: 1rem;
   font-weight: bold;
   margin: 0 auto;
+  text-align: center;
   text-shadow: hsl(0, 0%, 0%) 2px 2px 2px;
   text-transform: uppercase;
 }
@@ -158,8 +159,8 @@ a.donations {
 }
 
 .education ul {
-  text-align: left;
   color: white;
+  text-align: left;
 }
 
 .education ul {
@@ -176,8 +177,8 @@ a.donations {
 .text-container {
   background-color: hsla(0, 0%, 0%, 0.8);
   border: 1px solid hsl(0, 0%, 0%);
-  margin: 0 auto;
   height: auto;
+  margin: 0 auto;
   padding: 1.5rem 0.8rem;
   width: 100%;
 }
@@ -191,16 +192,16 @@ a:visited {
 }
 
 a:active {
-  transform: translate(1px, 1px);
   font-weight: 600;
+  transform: translate(1px, 1px);
 }
 
 @media only screen and (max-width: 768px) {
   .table-media {
+    border-radius: 8px;
     height: auto;
     max-height: 280px;
     max-width: 100%;
-    border-radius: 8px;
   }
   .carousel-item a {
     margin: 0 0;
