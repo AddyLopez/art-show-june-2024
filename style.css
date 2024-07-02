@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   font-size: 18px;
 }
@@ -41,7 +45,7 @@ li {
   margin-bottom: 0.75rem;
 }
 footer {
-  background-color: hsla(0, 0%, 0%, 0.9);
+  background-color: hsla(0, 0%, 0%, 0.93);
   border: 1px solid hsl(0, 0%, 0%);
   font-size: 0.8rem;
   height: auto;
@@ -56,6 +60,7 @@ nav {
   margin: 0 auto;
   max-width: 95%;
   padding-top: 10px;
+  width: 80%;
 }
 nav a {
   text-align: center;
@@ -72,6 +77,11 @@ video {
 video {
   margin: 0 auto;
 }
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
 ul.menu {
   list-style: none;
   margin: 0 auto;
@@ -81,6 +91,7 @@ ul.menu {
 ul.menu li {
   margin: 50px auto;
   max-width: 95%;
+  width: 80%;
 }
 
 a {
@@ -176,7 +187,7 @@ a.donations {
 }
 
 .text-container {
-  background-color: hsla(0, 0%, 0%, 0.8);
+  background-color: hsla(0, 0%, 0%, 0.85);
   border: 1px solid hsl(0, 0%, 0%);
   height: auto;
   margin: 0 auto;
@@ -200,6 +211,15 @@ a:active {
 }
 
 @media only screen and (max-width: 768px) {
+  ul.menu li {
+    margin: 50px auto;
+    width: 95%;
+    max-width: 95%;
+  }
+  nav {
+    width: 95%;
+  }
+
   .table-media {
     border-radius: 8px;
     height: auto;
