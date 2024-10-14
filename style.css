@@ -70,6 +70,7 @@ img,
 video {
   border-radius: 8px;
   height: auto;
+  min-height: 420px;
   max-height: 420px;
   max-width: 448px;
 }
